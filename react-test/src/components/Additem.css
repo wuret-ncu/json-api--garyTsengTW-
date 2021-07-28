@@ -1,0 +1,50 @@
+.addItemDiv input{
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    transition: 1s;
+    border-width: 0px;
+    border-bottom: 2px solid #ecdcc2;
+    background-color: rgb(225,174,113); 
+    text-shadow: 0px 0px 0.5px gray;
+    color:white;
+    font-family: "Microsoft JhengHei", monospace, cursive;
+    text-shadow: 0px 0px 5px gray;
+    margin-right:10px;
+}
+
+
+.addItemDiv input:focus{
+    outline: none;
+    border-color: #ffd700;
+} 
+
+.addItemDiv{
+    margin:10px 0px;
+}
+
+.addItemDiv button{
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    /* float: left; */
+    /* display: inline-block; */
+    /* line-height: 70px; */
+    color: #fff;
+    background-color: #ecdcc2;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px
+}
+
+.addItemDiv button:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+  }
+.addItemDiv button:hover{
+    background-color: #ceb195;
+    transition: 0s;
+} 

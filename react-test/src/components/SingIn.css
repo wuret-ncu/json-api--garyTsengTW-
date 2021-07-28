@@ -1,0 +1,124 @@
+/* .singIn{
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    max-width: 400px;
+    width: 90%;
+    border-radius: 2%;
+}*/
+.singInTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.singInTitle span{
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px gray;
+}/*
+.singInTitle button{
+    font-size: 20px;
+}
+.singInData{
+    margin: 10px 20px;
+    font-size: 30px;
+}*/
+.singInData input{
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    transition: 1s;
+    border-width: 0px;
+    border-bottom: 2px solid #ecdcc2;
+    background-color: rgb(225,174,113); 
+    text-shadow: 0px 0px 0.5px gray;
+    color:white;
+    font-family: "Microsoft JhengHei", monospace, cursive;
+    text-shadow: 0px 0px 5px gray;
+    margin: 10px 0;
+}
+.singInData input:focus{
+    outline: none;
+    border-color: #ffd700;
+}
+.singInData span{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px gray;
+}
+/*
+.sumbit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px 0px;
+    font-size: 30px;
+} */
+
+.singInLink{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight:520;
+    /* float: left; */
+    /* display: inline-block; */
+    line-height: 50px; 
+    color: #fff;
+    background-color: #ecdcc2;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px;
+    text-decoration: none;
+}
+
+.singInLink:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+}
+.singInLink:hover{
+    background-color: #ceb195;
+    transition: 0.5s;
+}
+
+.sumbitBtn{
+    width: 70px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight:600;
+    /* float: left; */
+    /* display: inline-block; */
+    /* line-height: 70px; */
+    color: #fff;
+    background-color: #ecdcc2;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px;
+    margin:20px auto;
+    display: block;
+}
+
+.sumbitBtn:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+}
+.sumbitBtn:hover{
+    background-color: #ceb195;
+    transition: 0.5s;
+}
+
+.singIn .notice{
+    display: block;
+    font-size: 17px;
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 0px gray;
+}

@@ -1,0 +1,42 @@
+
+
+.toDoListDiv label{
+    color: #fff;
+    text-shadow: 0px 0px 5px gray;
+    margin-left:5px
+}
+
+.toDoListDiv label, .toDoListDiv input{
+    cursor:pointer;
+}
+
+.toDoListDiv label:hover{
+    color: #ffd700;
+    font-size: 20px;
+} 
+
+.toDoListDiv button{
+    width: 60px;
+    height: 30px;
+    margin: 10px 3px;
+    border-radius: 5px;
+    /* float: left; */
+    /* display: inline-block; */
+    /* line-height: 70px; */
+    color: #fff;
+    background-color: #ecdcc2;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px
+}
+
+.toDoListDiv button:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+  }
+
+.toDoListDiv button:hover{
+    background-color: #ceb195;
+    transition: 0s;
+} 

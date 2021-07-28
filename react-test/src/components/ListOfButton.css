@@ -1,0 +1,24 @@
+.listOfButtonDiv button{
+    width: 60px;
+    height: 30px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    /* float: left; */
+    /* display: inline-block; */
+    /* line-height: 70px; */
+    color: #fff;
+    background-color: rgb(228,196,167);
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px
+}
+
+.listOfButtonDiv button:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+  }
+.listOfButtonDiv button:hover{
+    background-color: #ceb195;
+    transition: 0s;
+} 

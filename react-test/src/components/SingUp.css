@@ -1,0 +1,118 @@
+/* .singUp{
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    max-width: 400px;
+    width: 90%;
+    border-radius: 2%;
+}*/
+.singUpTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.singUpTitle span{
+    font-size: 40px;
+    color: white;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px gray;
+}
+
+.singUpLink{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight:520;
+    /* float: left; */
+    /* display: inline-block; */
+    line-height: 50px;
+    color: #fff;
+    background-color: #ecdcc2;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;  
+    border-width:0px;
+    text-decoration: none;
+}
+
+.singUpLink:active{
+    transform: scale(0.97,0.97);
+    transition: 0s;
+}
+.singUpLink:hover{
+    background-color: #ceb195;
+    transition: 0.5s;
+}
+
+.singUpData input{
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    transition: 1s;
+    border-width: 0px;
+    border-bottom: 2px solid #ecdcc2;
+    background-color: rgb(225,174,113); 
+    text-shadow: 0px 0px 0.5px gray;
+    color:white;
+    font-family: "Microsoft JhengHei", monospace, cursive;
+    text-shadow: 0px 0px 5px gray;
+    margin: 10px 0;
+}
+.singUpData input:focus{
+    outline: none;
+    border-color: #ffd700;
+}
+.singUpData span{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px gray;
+}
+
+.singUpData .notice{
+    display: block;
+    font-size: 17px;
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 0px gray;
+}
+
+.singUp .notice{
+    display: block;
+    font-size: 17px;
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 0px gray;
+}
+
+/*
+.singUpTitle button{
+    font-size: 20px;
+}
+.singUpData{
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.singUpData input{
+    font-size: 30px;
+    width: 95%;
+    display: block;
+}
+.singUpData .notice{
+    display: block;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
+.sumbit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    margin: 20px 0px;
+} */
+

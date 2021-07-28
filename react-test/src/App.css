@@ -1,0 +1,13 @@
+.outline{
+  text-align: center;
+  background-color: rgb(225,174,113);
+  width: 900px;
+  height: 600px;
+  box-shadow: 0px 0px 10px #999;
+  border-radius: 5px;     
+  margin:20px auto;
+}
+
+/* *{
+  border:1px solid white;
+} */
